@@ -1,2 +1,11 @@
-# C-2-
-Program for Additon of 2 numbers
+#include <stdio.h>
+int main(){
+int a,b,sum;
+printf("enter a:");
+scanf("%d",&a);
+printf("enter b:");
+scanf("%d",&b);
+sum=a+b;
+pritf("total=%d",sum);
+return 0;
+}
